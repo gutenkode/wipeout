@@ -17,9 +17,9 @@ public class Ship {
     private Vector3d pos, vel, rot, rVel;
     private double thrustAccel, turnAccel, brakeAccel;
     private final double rideHeight = 1.5,
-                         turnAccelMax  = .0035,  thrustAccelMax  = .04,   brakeAccelMax  = .01,
-                         turnAccelGain = .0003,  thrustAccelGain = .0002, brakeAccelGain = .001,
-                         turnAccelDamp = .96,    thrustAccelDamp = .98,   brakeAccelDamp = .9;
+                         turnAccelMax  = .004,  thrustAccelMax  = .04,   brakeAccelMax  = .015,
+                         turnAccelGain = .001,  thrustAccelGain = .001, brakeAccelGain = .004,
+                         turnAccelDamp = .96,    thrustAccelDamp = .98,   brakeAccelDamp = .85;
 
     //public double yRot, x, y, z;
     //private double xVel, yVel, zVel, turnVel,
