@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wipeout:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/wipeout_jar</output-path>
+    <root id="archive" name="wipeout.jar">
+      <element id="module-output" name="wipeout" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lwjgl/out/artifacts/lwjgl_jar/lwjgl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/guava/guava/14.0.1/guava-14.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mote4/out/artifacts/moteEngine_jar/moteEngine.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
