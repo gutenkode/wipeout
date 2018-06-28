@@ -1,7 +1,6 @@
 package entity;
 
 import main.Input;
-import mote4.scenegraph.Window;
 import mote4.util.matrix.TransformationMatrix;
 import mote4.util.vertex.mesh.MeshMap;
 import org.joml.Vector3d;
@@ -10,15 +9,13 @@ import scene.Ingame;
 import util.LineSegment;
 import util.TrackBuilder;
 
-import static org.lwjgl.glfw.GLFW.*;
-
 public class Ship {
 
     private Vector3d pos, vel, rot, rVel;
     private double thrustAccel, turnAccel, brakeAccel;
     private final double rideHeight = 1.5,
                          turnAccelMax  = .004,  thrustAccelMax  = .04,   brakeAccelMax  = .015,
-                         turnAccelGain = .001,  thrustAccelGain = .001, brakeAccelGain = .004,
+                         turnAccelGain = .001,  thrustAccelGain = .001, brakeAccelGain = .04,
                          turnAccelDamp = .96,    thrustAccelDamp = .98,   brakeAccelDamp = .85;
 
     //public double yRot, x, y, z;
